@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T05:41:19.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3pjN09ZSdSOH3I4fB1OO" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-18T05:43:58.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WG_YHckMEyX4gry0xHgu" version="20.2.4" type="github" pages="3">
   <diagram id="VRYX7vsJ5zyf21zDAFwm" name="Domain">
     <mxGraphModel dx="1680" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -498,18 +498,32 @@
           <mxGeometry x="339.5" y="738" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dq2fw53rMwIENlcPJWIX-1" value="Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;container=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="487" width="190" height="119" as="geometry">
+          <mxGeometry x="590.25" y="565" width="190" height="119" as="geometry">
             <mxRectangle x="100" y="110" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dq2fw53rMwIENlcPJWIX-2" value="Amount: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="610" y="543" width="140" height="26" as="geometry" />
+          <mxGeometry x="590.25" y="621" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dq2fw53rMwIENlcPJWIX-3" value="Status: PaymentStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="610" y="569" width="180" height="51" as="geometry" />
+          <mxGeometry x="590.25" y="647" width="180" height="51" as="geometry" />
         </mxCell>
         <mxCell id="dq2fw53rMwIENlcPJWIX-4" value="TransactionId: GUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="612" y="518" width="140" height="26" as="geometry" />
+          <mxGeometry x="592.25" y="596" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dq2fw53rMwIENlcPJWIX-5" value="AdditionalDriver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="590.25" y="430" width="169.75" height="110" as="geometry">
+            <mxRectangle x="100" y="110" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dq2fw53rMwIENlcPJWIX-6" value="DriverLicense: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="590.25" y="460" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dq2fw53rMwIENlcPJWIX-7" value="Person: Person" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="590.25" y="507" width="159.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dq2fw53rMwIENlcPJWIX-8" value="DLExpirationDate: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="591.75" y="481" width="159.5" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
