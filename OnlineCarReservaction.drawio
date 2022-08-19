@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T04:43:48.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L3VbVB7h3UlZQod5lB2l" version="20.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-19T04:52:27.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EXZyGd3pRiZgvlS2ilMH" version="20.2.4" type="github" pages="5">
   <diagram id="6JAZ5x8bzfCk0VUS_ihG" name="Sequence diagram">
     <mxGraphModel dx="1681" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1204,6 +1204,69 @@
         </mxCell>
         <mxCell id="yo0cBRMHb1rT3A8ugMfo-4" value="Save contract" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="581.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bfky8BDZKfVb_-Wgci3g-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=#FFFFFF;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="761" y="64" width="25" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Bfky8BDZKfVb_-Wgci3g-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="750" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bfky8BDZKfVb_-Wgci3g-3" value="View customer record" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="503" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zMagxg5F9NZDRx0Z9PZT-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;exitX=1.031;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4V-_dhOiI8Nb6kZ_J1vU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="770" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMagxg5F9NZDRx0Z9PZT-2" value="View/Add/Update&lt;br&gt;/Remove Vehicle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="694" y="283" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;exitX=1.031;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464.9999999999998" y="465.02" as="sourcePoint" />
+            <mxPoint x="760" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="761.28" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-2" value="View/Add/Update&lt;br&gt;/Remove Insurance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680.28" y="466" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;exitX=1.031;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.9999999999998" y="562.02" as="sourcePoint" />
+            <mxPoint x="790" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-4" value="View/Update&lt;br&gt;/Remove reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="669.28" y="525" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;exitX=1.025;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4V-_dhOiI8Nb6kZ_J1vU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.9999999999998" y="402.02" as="sourcePoint" />
+            <mxPoint x="780" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zw_EAOZJmU7eiOQM-ztz-7" value="View/Add/Update&lt;br&gt;/Remove Location" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695.28" y="410" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
