@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T05:11:06.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4REMX_RHCMRGCyt5U2JY" version="20.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-19T05:12:55.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="x3wYQMjl2q5pFcAS4mVO" version="20.2.4" type="github" pages="5">
   <diagram id="6JAZ5x8bzfCk0VUS_ihG" name="Sequence diagram">
     <mxGraphModel dx="1681" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1051,17 +1051,17 @@
         <mxCell id="wO9gCV3GJh2luEOZP5gc-20" value="Get insurances" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="455" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aPpx_8OXxoyd95Lo2Owz-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.588;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="4V-_dhOiI8Nb6kZ_J1vU-5">
+        <mxCell id="aPpx_8OXxoyd95Lo2Owz-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="139.03999999999996" y="335.3599999999999" as="sourcePoint" />
-            <mxPoint x="332" y="480" as="targetPoint" />
+            <mxPoint x="139" y="330" as="sourcePoint" />
+            <mxPoint x="350" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="139" y="590" />
+              <mxPoint x="139" y="571" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="aPpx_8OXxoyd95Lo2Owz-2" value="Make reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="198" y="564" width="120" height="30" as="geometry" />
+          <mxGeometry x="200" y="550" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aPpx_8OXxoyd95Lo2Owz-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=0.017;entryY=0.841;entryDx=0;entryDy=0;exitX=0.588;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" target="qeJw-7jwwxS-UdpHIU8c-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1347,6 +1347,18 @@
         </mxCell>
         <mxCell id="SQpIlmvbqYuYBobG8c-p-13" value="Insurance data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="489" y="422.08" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WtRKWMZE8iN4EGdIkpZS-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4V-_dhOiI8Nb6kZ_J1vU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="330" as="sourcePoint" />
+            <mxPoint x="341" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WtRKWMZE8iN4EGdIkpZS-2" value="Cancel reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
