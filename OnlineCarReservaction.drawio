@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T05:12:55.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="x3wYQMjl2q5pFcAS4mVO" version="20.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-19T05:13:13.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="U_-GtXEf7wCOV8laPrUi" version="20.2.4" type="github" pages="5">
   <diagram id="6JAZ5x8bzfCk0VUS_ihG" name="Sequence diagram">
     <mxGraphModel dx="1681" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1357,8 +1357,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WtRKWMZE8iN4EGdIkpZS-2" value="Cancel reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="570" width="120" height="30" as="geometry" />
+        <mxCell id="WtRKWMZE8iN4EGdIkpZS-2" value="Get/Cancel reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="570" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
