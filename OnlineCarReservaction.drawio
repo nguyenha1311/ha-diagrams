@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T04:56:45.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RoE9qCk6AyUuxU9kskDm" version="20.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-19T04:57:39.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DPKT3uVofXoe16BXPwUL" version="20.2.4" type="github" pages="5">
   <diagram id="6JAZ5x8bzfCk0VUS_ihG" name="Sequence diagram">
     <mxGraphModel dx="1681" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -920,8 +920,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4V-_dhOiI8Nb6kZ_J1vU-20" value="Authentication" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="202" y="57" width="100" height="30" as="geometry" />
+        <mxCell id="4V-_dhOiI8Nb6kZ_J1vU-20" value="Authenticate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="207" y="57" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f08t_TbxL1NU9Ws1eTgg-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4V-_dhOiI8Nb6kZ_J1vU-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -932,8 +932,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f08t_TbxL1NU9Ws1eTgg-2" value="Registration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="38" width="90" height="30" as="geometry" />
+        <mxCell id="f08t_TbxL1NU9Ws1eTgg-2" value="Register account" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m-hS_TCROQM7EG9owKFc-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFCC99;elbow=vertical;entryX=-0.005;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4V-_dhOiI8Nb6kZ_J1vU-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
